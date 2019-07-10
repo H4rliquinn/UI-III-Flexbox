@@ -63,4 +63,109 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+@media only screen and (max-width: 600px) {
+	nav{flex-flow:row wrap;}
+	nav .navBar{
+		width:35%;
+}
+
+body{
+ margin: auto;
+ width:900px;
+}
+
+nav{
+	display:flex;
+	justify-content: space-between;
+	align-items:center;
+	margin-top:30px;
+}
+
+nav a{
+	text-decoration: none;
+	color:grey;
+	margin:0px 25px;
+}
+
+nav .navBar{
+	width:70%;
+}
+
+h1{
+	font-size:65px;
+	font-weight:bold;
+}
+
+h2{
+	font-size:20px;
+	font-weight:bold;
+	font-style: italic;
+}
+
+
+
+.topContent{
+	margin-top:50px;
+	display:flex;
+}
+
+.topLeftContent{
+
+	width: 60%;
+	vertical-align: top;
+	text-align:center;
+	margin-top:50px;
+}
+
+.startButton{
+	width:170px;
+	border:1px solid black;
+	margin:20px auto;
+	font-size: 20px;
+	padding: 10px auto;
+}
+.middleContent{
+	border-top:1px solid black;
+	margin:40px 0px;
+	display:flex;
+}
+.middleContent div{
+	margin:20px 20px 0px 0px;
+}
+
+.middle-img{
+	margin:0px 9px;
+}
+
+.bottomContent {
+	display:flex;
+}
+.bottomContent div{
+	margin:20px 20px 20px 0px;
+}
+
+div p{
+	margin:20px 0px;
+}
+
+.addy{
+	display:flex;
+	flex-direction:column;
+	border-top: 1px solid black;
+	padding:20px 0px 0px 0px;
+}
+
+
+.addy a{
+	margin:20px 0px  0px  0px;
+	text-decoration: none;
+	color:black;
+}
+
+.copy{
+	width:100%;
+	text-align: center;
+	margin-top:50px;
+}
